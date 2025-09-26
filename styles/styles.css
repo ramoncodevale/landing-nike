@@ -11,8 +11,69 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid #1f2937;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo p {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  color: #d1d5db;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.container-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
