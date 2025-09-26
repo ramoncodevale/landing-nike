@@ -36,16 +36,18 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   border-bottom: 1px solid #1f2937;
-  padding: 20px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo p {
@@ -76,4 +78,82 @@ a {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.container-home {
+  padding: 85px 0 150px 0;
+}
+
+.container-home .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-home img {
+  width: 592px;
+  height: 600px;
+  border-radius: 8px;
+}
+
+.container-text-home {
+  width: 50%;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.container-text-home h1 {
+  width: 360px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 96px;
+}
+
+.container-text-home span {
+  color: #dc2626;
+}
+
+.container-text-home p {
+  width: 485px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d1d5db;
+  margin-top: 125px;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.btn-buy-now {
+  background-color: #dc2626;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  width: 211px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.btn-explore {
+  background-color: #000000;
+  color: #ffffff;
+  width: 259px;
+  height: 64px;
+  border-width: 2px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
 }
