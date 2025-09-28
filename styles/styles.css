@@ -157,3 +157,116 @@ a {
   line-height: 100%;
   text-align: center;
 }
+
+.container-highlights {
+  background-color: #111827;
+  padding: 80px 0;
+}
+
+.container-highlights-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-highlights-text h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.container-highlights-text p {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-top: 64px;
+}
+
+.card-shoes {
+  width: 100%;
+  max-width: 389px;
+}
+
+.card-shoes img {
+  width: 100%;
+  max-width: 389px;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  width: 100%;
+  max-width: 389px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #000000;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 24px;
+}
+
+.card-content h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.card-content p {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.container-price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container-price-button p {
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container-price-button button {
+  width: 114px;
+  height: 40px;
+  background-color: #dc2626;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: 3px solid transparent;
+  line-height: 100%;
+  text-align: center;
+}
+
+.container-price-button button:hover {
+  border: 3px solid #dc2626;
+  background-color: transparent;
+}
