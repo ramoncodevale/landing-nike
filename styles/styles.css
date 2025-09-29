@@ -50,7 +50,7 @@ nav {
   align-items: center;
 }
 
-.logo p {
+ul li.logo p {
   color: #ffffff;
   font-family: Inter;
   font-weight: bold;
@@ -269,4 +269,81 @@ a {
 .container-price-button button:hover {
   border: 3px solid #dc2626;
   background-color: transparent;
+}
+
+.container-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 138px;
+}
+
+.news h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.news p {
+  width: 582px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #9CA3AF;
+  margin-top: 13px;
+  line-height: 28px;
+}
+
+.container-border-news {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #dc2626;
+  border-radius: 999px;
+}
+
+.news button {
+  width: 211px;
+  height: 60px;
+  background-color: #DC2626;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 32px;
 }
