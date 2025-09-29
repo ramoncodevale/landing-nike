@@ -271,21 +271,21 @@ a {
   background-color: transparent;
 }
 
-.container-news {
+.container-news .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-top: 138px;
 }
 
-.news h1 {
+.container-news .container h1 {
   color: #ffffff;
   font-weight: 900;
   font-size: 48px;
   line-height: 48px;
 }
 
-.news p {
+.container-news .container p {
   width: 582px;
   font-weight: 400;
   font-size: 20px;
@@ -333,7 +333,7 @@ a {
   border-radius: 999px;
 }
 
-.news button {
+.container-news .container button {
   width: 211px;
   height: 60px;
   background-color: #DC2626;
@@ -346,4 +346,75 @@ a {
   line-height: 100%;
   text-align: center;
   margin-top: 32px;
+}
+
+.container-inspiration {
+  background-color: #111827;
+}
+
+
+.container-inspiration h1 {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.container-inspiration p {
+  color: #9CA3AF;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.container-card-inspiration {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 32px;
+}
+
+.card-inspiration {
+  width: 100%;
+  max-width: 389px;
+  background-color: #000000;
+  border-radius: 8px;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-inspiration img {
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+
+}
+
+.card-inspiration p {
+  width: 259px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.card-inspiration .name {
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
 }
