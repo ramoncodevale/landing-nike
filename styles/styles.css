@@ -350,15 +350,14 @@ a {
 
 .container-inspiration {
   background-color: #111827;
+  padding: 80px 0;
 }
-
 
 .container-inspiration h1 {
   color: #FFFFFF;
   font-weight: 900;
   font-size: 48px;
   line-height: 48px;
-  padding-top: 80px;
   text-align: center;
 }
 
@@ -385,7 +384,7 @@ a {
   max-width: 389px;
   background-color: #000000;
   border-radius: 8px;
-  padding-top: 32px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,7 +394,6 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 9999px;
-
 }
 
 .card-inspiration p {
@@ -416,5 +414,57 @@ a {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
 
+
+.container-start {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start h1 {
+  width: 445px;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.start p {
+  color: #D1D5DB;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+
+.container-start span {
+  color: #DC2626;
+}
+
+.container-start button {
+  width: 280px;
+  height: 76px;
+  background-color: #DC2626;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
 }
